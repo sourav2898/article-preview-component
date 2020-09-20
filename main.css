@@ -159,4 +159,41 @@ h4.date{
     visibility: visible;
 }
 
+@media screen and (max-width:600px){
+    
+    *{
+        box-sizing: border-box;
+    }
+    
+    .container{
+        width: auto;
+        height: auto;
+        margin: 30px 20px;
+        overflow: hidden;
+    }
+    
+    .container .left{
+        width: 100%;
+        border-top-left-radius: 12px;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 12px;
+    }
+    
+    .container .right{
+        width: 100%;
+        height: auto;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 12px;
+    }
+    
+    .container .right .inner-right h1{
+        font-size: 25px;
+    }
+    
+    .container .right .inner-right p{
+        font-size: 17px;
+        margin-bottom: 25px;
+    }
+    
+}
 
